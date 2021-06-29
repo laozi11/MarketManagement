@@ -1,0 +1,27 @@
+// Flist.cpp: implementation of the CFlist class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "jszfglxt.h"
+#include "Flist.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CFlist::CFlist()
+{
+	n=0;
+}
+
+CFlist::~CFlist()
+{
+
+}

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5d5d289d-80b7-4756-b049-95b128d70bf2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a9b04805-f1e9-46c5-822c-0ace04caa0ce}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{bc24da3c-2a7f-421b-a75a-14f520fa802b}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jsmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jszfglxt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jszfglxtDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jtcyxx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Member.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqxx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqzf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="standard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Xfyxx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Xgjl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Xgxx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zfbz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zjfy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zjjl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="jszfglxt.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jsmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jszfglxt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jszfglxtDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jtcyxx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Member.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqxx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqzf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="standard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Xfyxx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Xgjl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Xgxx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zfbz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zjfy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zjjl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\jszfglxt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\jszfglxt.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

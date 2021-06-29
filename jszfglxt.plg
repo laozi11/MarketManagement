@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: jszfglxt - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP90F8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/jszfglxt.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\jszfglxt\Dl.cpp"
+"H:\jszfglxt\jszfglxtDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP90F8.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP90F9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/jszfglxt.pdb" /debug /machine:I386 /out:"Debug/jszfglxt.exe" /pdbtype:sept 
+.\Debug\Dl.obj
+.\Debug\Flist.obj
+.\Debug\Jsmd.obj
+.\Debug\jszfglxt.obj
+.\Debug\jszfglxtDlg.obj
+.\Debug\Jtcyxx.obj
+.\Debug\Member.obj
+.\Debug\Nlist.obj
+.\Debug\Sqmd.obj
+.\Debug\Sqxx.obj
+.\Debug\Sqzf.obj
+.\Debug\standard.obj
+.\Debug\StdAfx.obj
+.\Debug\Sx.obj
+.\Debug\Xfyxx.obj
+.\Debug\Xgjl.obj
+.\Debug\Xgxx.obj
+.\Debug\Zfbz.obj
+.\Debug\Zjfy.obj
+.\Debug\Zjjl.obj
+.\Debug\jszfglxt.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP90F9.tmp"
+<h3>Output Window</h3>
+Compiling...
+Dl.cpp
+h:\jszfglxt\dl.h(17) : error C2146: syntax error : missing ';' before identifier 'm_about'
+h:\jszfglxt\dl.h(17) : error C2501: 'Cabout' : missing storage-class or type specifiers
+h:\jszfglxt\dl.h(17) : error C2501: 'm_about' : missing storage-class or type specifiers
+H:\jszfglxt\Dl.cpp(66) : error C2065: 'm_about' : undeclared identifier
+H:\jszfglxt\Dl.cpp(66) : error C2228: left of '.DoModal' must have class/struct/union type
+jszfglxtDlg.cpp
+h:\jszfglxt\dl.h(17) : error C2146: syntax error : missing ';' before identifier 'm_about'
+h:\jszfglxt\dl.h(17) : error C2501: 'Cabout' : missing storage-class or type specifiers
+h:\jszfglxt\dl.h(17) : error C2501: 'm_about' : missing storage-class or type specifiers
+H:\jszfglxt\jszfglxtDlg.cpp(27) : error C2146: syntax error : missing ';' before identifier 'm_aboutt'
+H:\jszfglxt\jszfglxtDlg.cpp(27) : error C2501: 'Caboutt' : missing storage-class or type specifiers
+H:\jszfglxt\jszfglxtDlg.cpp(27) : error C2501: 'm_aboutt' : missing storage-class or type specifiers
+H:\jszfglxt\jszfglxtDlg.cpp(28) : error C2146: syntax error : missing ';' before identifier 'm_about'
+H:\jszfglxt\jszfglxtDlg.cpp(28) : error C2501: 'Cabout' : missing storage-class or type specifiers
+H:\jszfglxt\jszfglxtDlg.cpp(28) : error C2501: 'm_about' : missing storage-class or type specifiers
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+jszfglxt.exe - 14 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
